@@ -3,8 +3,8 @@ import streamlit as st
 # Set the page configuration to wide mode
 st.set_page_config(layout="wide")
 # URL of the image from your GitHub repository
-image1_url = 'https://raw.githubusercontent.com/samberubz/mtl-slopes-2024/main/Capture1.png'
-image2_url = 'https://raw.githubusercontent.com/samberubz/mtl-slopes-2024/main/Capture2.png'
+image1_url = 'Capture1.png'
+image2_url = 'Capture2.png'
 
 # Display the image in Streamlit
 st.image(image1_url, use_column_width=True)
